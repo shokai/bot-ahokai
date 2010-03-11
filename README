@@ -2,9 +2,9 @@ ahokai is a twitter bot using marcov chain.
 http://shokai.org/blog/archives/4036
 
 == rename sample.config.yaml to config.yaml, then edit
-usernum : “3631571″ # データ収集のためのユーザ番号
-user : “ahokai”
-pass : “twitter-password”
+usernum : "3631571"
+user : "ahokai"
+pass : "twitter-password"
 
 
 == init db
