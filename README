@@ -1,0 +1,24 @@
+ahokai is a twitter bot using marcov chain.
+http://shokai.org/blog/archives/4036
+
+== rename sample.config.yaml to config.yaml, then edit
+usernum : “3631571″ # データ収集のためのユーザ番号
+user : “ahokai”
+pass : “twitter-password”
+
+
+== init db
+ruby migrate_posts.rb up
+ruby migrate_ngrams.rb up
+
+
+== store tweets 160 pages
+ruby store.rb 1-160
+
+
+== make marcov chain
+ruby make3gram.rb
+
+
+== post
+ruby post3gram.rb
