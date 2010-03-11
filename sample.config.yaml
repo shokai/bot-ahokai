@@ -1,0 +1,25 @@
+# twitter user/pass to post
+usernum : "3631571" # see your Feed of twitter
+user : "username"
+pass : "password"
+
+## post with buzztter ratio
+buzzratio : 0.3 # 30%
+
+## search words for refav
+#searchwords : ["ahokai", "あほか"]
+
+## block NG words
+#blockngwords : "true"
+
+## sub accounts list
+#subusers:
+#- user : "name1"
+#  pass : "pass1"
+#- user : "name2"
+#  pass : "pass2"
+#- user : "name3"
+#  pass : "pass3"
+
+## for debug
+#nopost : "true"
